@@ -1,0 +1,47 @@
+legend {
+    font-size: 1em;
+    font-style: italic;
+}
+
+input[type=text] {
+    width: 100%;
+    margin: 5px 0;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+input[type=submit] {
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+input[type=reset] {
+    width: 200px;
+    color: red;
+    border-radius: 1px;
+    border-color: black;
+    padding: 10px 0;
+}
+
+select {
+    width: 30%;
+    margin: 8px 0;
+    padding: 3px 4px;
+    display: block;
+}
+
+textarea {
+    display: block;
+    margin: 12px 0;
+    width: 30%;
+    height: 75px;
+}
+
+label {
+    background-color: cyan;
+}
+
+.medd {
+    background-color: grey;
+}

@@ -1,0 +1,33 @@
+[22756:13216:1031/182819.393:VERBOSE1:crash_service_main.cc(78)] Session start. cmdline is [--reporter-url=https://crashreporter.atom.io --application-name=Atom "--crashes-directory=C:\Programfiler\Cygwin\tmp\Atom Crashes" --v=1]
+[22756:13216:1031/182819.422:VERBOSE1:crash_service.cc(142)] window handle is 0000000000020FC8
+[22756:13216:1031/182819.422:VERBOSE1:crash_service.cc(284)] pipe name is \\.\pipe\Atom Crash Service
+dumps at C:\Programfiler\Cygwin\tmp\Atom Crashes
+[22756:13216:1031/182819.422:VERBOSE1:crash_service.cc(288)] checkpoint is C:\Programfiler\Cygwin\tmp\Atom Crashes\crash_checkpoint.txt
+server is https://crashreporter.atom.io
+maximum 128 reports/day
+reporter is electron-crash-service
+[22756:13216:1031/182819.422:VERBOSE1:crash_service_main.cc(94)] Ready to process crash requests
+[22756:5596:1031/182819.440:VERBOSE1:crash_service.cc(317)] client start. pid = 2652
+[22756:5596:1031/182826.118:VERBOSE1:crash_service.cc(317)] client start. pid = 13932
+[21364:4064:1031/182826.147:VERBOSE1:crash_service_main.cc(78)] Session start. cmdline is [--reporter-url=https://crashreporter.atom.io --application-name=Atom "--crashes-directory=C:\Programfiler\Cygwin\tmp\Atom Crashes" --v=1]
+[21364:4064:1031/182826.157:VERBOSE1:crash_service.cc(142)] window handle is 0000000000020FE8
+[21364:4064:1031/182826.157:VERBOSE1:crash_service.cc(284)] pipe name is \\.\pipe\Atom Crash Service
+dumps at C:\Programfiler\Cygwin\tmp\Atom Crashes
+[21364:4064:1031/182826.157:VERBOSE1:crash_service.cc(288)] checkpoint is C:\Programfiler\Cygwin\tmp\Atom Crashes\crash_checkpoint.txt
+server is https://crashreporter.atom.io
+maximum 128 reports/day
+reporter is electron-crash-service
+[21364:4064:1031/182826.157:ERROR:crash_service.cc(295)] could not start dumper
+[22756:5596:1031/184701.719:VERBOSE1:crash_service.cc(317)] client start. pid = 3036
+[22756:5596:1031/184703.529:VERBOSE1:crash_service.cc(317)] client start. pid = 24012
+[22756:26448:1031/233252.234:VERBOSE1:crash_service.cc(325)] client end. pid = 13932
+[22756:26448:1031/233253.183:VERBOSE1:crash_service.cc(325)] client end. pid = 2652
+[22756:26448:1031/234656.121:VERBOSE1:crash_service.cc(325)] client end. pid = 3036
+[22756:26448:1031/234656.164:VERBOSE1:crash_service.cc(325)] client end. pid = 24012
+[22756:26448:1031/234657.165:VERBOSE1:crash_service.cc(346)] zero clients. exiting
+[22756:13216:1031/234657.165:VERBOSE1:crash_service.cc(486)] session ending..
+[22756:13216:1031/234657.165:VERBOSE1:crash_service.cc(491)] clients connected :4
+clients terminated :4
+dumps serviced :0
+dumps reported :0
+[22756:13216:1031/234657.165:VERBOSE1:crash_service_main.cc(99)] Session end. return code is 0

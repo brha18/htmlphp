@@ -1,0 +1,12 @@
+--2018-09-18 09:44:17--  https://dbwebb.se/img/mikael-roos/me-happy.jpg
+Slår upp dbwebb.se (dbwebb.se)... 194.47.150.9
+Ansluter till dbwebb.se (dbwebb.se)|194.47.150.9|:443... ansluten.
+HTTP-begäran skickad, väntar på svar... 200 OK
+Längd: 53866 (53K) [image/jpeg]
+Sparar till: "me-happy.jpg.1"
+
+     0K .......... .......... .......... .......... .......... 95%  736K 0s
+    50K ..                                                    100% 12,1G=0,07s
+
+2018-09-18 09:44:17 (774 KB/s) - "me-happy.jpg.1" sparades [53866/53866]
+

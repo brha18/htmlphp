@@ -1,0 +1,355 @@
+html {
+    background-color: #500;
+    overflow-y: scroll;
+}
+
+.me {
+    width: 400px;
+}
+
+body {
+    margin: 8px auto;
+    padding: 8px;
+    width: 980px;
+    background-color: #efe;
+    border-radius: 10px;
+}
+
+main {
+    min-height: 30em;
+}
+
+main .sessionpage {
+    width: 60%;
+    float: right;
+    background-color: rgb(120, 50, 90);
+    min-height: 20em;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+aside .sessionpage {
+    width: 30%;
+    float: left;
+    background-color: hsl(206, 100%, 86%);
+    border: 10px solid hsl(106, 100%, 76%);
+}
+
+code {
+    background-color: white;
+    color: orange;
+    font-size: 1rem;
+}
+
+.wrap-main {
+    background-color: hsl(60, 100%, 86%);
+    overflow: auto;
+    border: 10px solid hsl(60, 100%, 76%);
+}
+
+div {
+    /* width: 400px;
+    height: 200px; */
+    margin: 10px;
+    padding: 40px;
+
+    /* outline: 10px dotted blue; */
+}
+
+.kmom01 {
+    border: 15px solid green;
+}
+
+.kmom02 {
+    border: 5px solid cyan;
+}
+
+.kmom03 {
+    border: 2px solid brown;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.4rem;
+    color: grey;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+    line-height: 1.2;
+    display: block;
+    font-size: 1.17em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: left;
+    font-size: 0.8em;
+    color: grey;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    line-height: 0.9;
+    margin-bottom: 1px;
+}
+
+article {
+    background-color: #eee;
+    overflow: auto;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 70%;
+}
+
+h4 {
+    color: #59e;
+    font-style: italic;
+    line-height: 0.2;
+}
+
+.site-header {
+    background-color: #fff;
+    overflow: auto; /* clear fix to make div span all elements */
+}
+
+.author {
+    font-style: italic;
+}
+
+.site-header img {
+    float: left;
+}
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    padding-left: 50px;
+    font-size: 32px;
+    overflow: auto;
+}
+
+.site-slogan {
+    display: block;
+    padding-left: 50px;
+    font-style: italic;
+    overflow: auto;
+}
+
+.site-footer {
+    height: 70px;
+    margin-top: 20px;
+    background-color: black;
+    clear: both;
+    text-align: center;
+}
+
+label {
+    background-color: grey;
+    margin-right: 10px;
+    width: 50em;
+    min-width: 30em;
+}
+
+/* for all values */
+a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #f00;
+}
+
+/* visited link
+a:visited {
+    color: #0f0;
+} */
+
+/* mouse over link */
+a:hover {
+    color: #f0f;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: wavy;
+}
+
+/* selected link */
+a:active {
+    color: #00f;
+    font-family: fantasy;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #fff;
+    border-top: 1px solid #9c9;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    text-decoration: none;
+    color: red;
+}
+
+.navbar a:hover {
+    background-color: #eee;
+    text-decoration: underline;
+}
+
+.navbar a:active {
+    color: black;
+    background-color: grey;
+}
+
+.navbar .selected {
+    background-color: #ccc;
+    border-radius: 40px 10px;
+}
+
+.validera {
+    background-color: white;
+    text-decoration: overline;
+}
+
+.validera a:hover {
+    background-color: #eee;
+    color: maroon;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+}
+
+.textlink {
+    background-color: rgba(123, 191, 63, 0.32);
+    text-decoration-style: double;
+    width: auto;
+    height: auto;
+}
+
+.snow {
+    height: 100px;
+    width: 100px;
+    transform: rotate(90deg);
+    float: left;
+    padding-right: 1em;
+}
+
+.vinter {
+    width: 200px;
+    height: auto;
+    float: left;
+    background-color: rgba(123, 191, 63, 0.52);
+    color: rgba(193, 66, 66, 0.52);
+}
+
+.minBild {
+    width: 300px;
+    height: auto;
+    float: right;
+    background-color: green;
+    color: red;
+}
+
+.hund {
+    width: 200px;
+    height: auto;
+    float: left;
+    transform: rotate(90deg);
+}
+
+.byline {
+    padding: 10px;
+    overflow: auto;
+    border: 3px solid green;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 100%;
+}
+
+.byline img {
+    float: left;
+    margin-right: 30px;
+}
+
+.byline p {
+    margin-top: 10px;
+}
+
+.nyckel {
+    margin-top: 10px;
+    float: left;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.sticky-top {
+    background-color: white;
+}
+
+/**
+ * responsive
+ */
+@media (max-width: 980px) {
+    body {
+        width: auto;
+        background-color: yellow;
+    }
+
+    .byline {
+        font-size: 10px;
+    }
+
+    .author {
+        font-size: 10px;
+        color: #aaa;
+    }
+
+    .me {
+        width: 80%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    main {
+        background-color: #000;
+        margin-top: 15px;
+        color: white;
+        display: block;
+        border: 1px solid black;
+    }
+
+    .navbar a {
+        width: 90%;
+        text-align: left;
+        font-size: 18px;
+        background-color: #666;
+        display: block;
+        border: 1px solid #eee;
+        text-decoration: none;
+        color: white;
+    }
+
+    .site-title,
+    .site-slogan {
+        display: none;
+    }
+
+    .main-logo,
+    .site-header {
+        width: auto;
+    }
+}

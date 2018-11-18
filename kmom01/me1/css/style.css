@@ -1,0 +1,124 @@
+html {
+    background-color: #500;
+}
+
+.me {
+    width: 400px;
+}
+
+body {
+    margin: 8px auto;
+    padding: 8px;
+    width: 980px;
+    background-color: #efe;
+    border-radius: 10px;
+}
+
+code {
+    background-color: white;
+    color: orange;
+    font-size: 1rem;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.4rem;
+    color: grey;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+    line-height: 1.2;
+    display: block;
+    font-size: 1.17em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 {
+    color: #59e;
+    font-style: italic;
+    line-height: 0.2;
+}
+
+.site-header {
+    background-color: #fff;
+    overflow: auto; /* clear fix to make div span all elements */
+}
+
+.site-header img {
+    float: left;
+}
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    padding-left: 50px;
+    font-size: 32px;
+    overflow: auto;
+}
+
+.site-slogan {
+    display: block;
+    padding-left: 50px;
+    font-style: italic;
+    overflow: auto;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #fff;
+    border-top: 1px solid #9c9;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #eee;
+    text-decoration: underline;
+}
+
+.snow {
+    width: 200px;
+}
+
+.hund {
+    width: 100px;
+}
+
+.byline {
+    padding: 10px;
+    overflow: auto;
+    border: 3px solid green;
+    margin-top: 10px;
+}
+
+.byline img {
+    float: left;
+    margin-right: 30px;
+}
+
+.byline p {
+    margin-top: 10px;
+}
+
+.nyckel {
+    margin-top: 10px;
+    float: left;
+    width: 40px;
+    margin-left: 10px;
+}
